@@ -18,7 +18,9 @@
     <div id="layoutSidenav">
         @include('template.partials.sidenav-view')
 
-        @yield('side-nav-content')
+        <div id="layoutSidenav_content">
+            @yield('side-nav-content')
+        </div>
     </div>
     @yield('script-tag')
 </body>
