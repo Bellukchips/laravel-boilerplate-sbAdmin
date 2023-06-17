@@ -1,6 +1,5 @@
 @extends('template.template-dashboard-view')
 @section('side-nav-content')
-    <div id="layoutSidenav_content">
         <main>
             <div class="container-fluid px-4">
                 <h1 class="mt-4">Dashboard</h1>
@@ -569,7 +568,6 @@
                 </div>
             </div>
         </footer>
-    </div>
 @endsection
 @section('script-tag')
     @include('template.components.general-script')
